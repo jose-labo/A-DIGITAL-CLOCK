@@ -8,6 +8,4 @@ function updateClock() {
 
 //update every second 
 setInterval(updateTime, 1000);
-
-//initial call to show clock immediately
 updateTime();
