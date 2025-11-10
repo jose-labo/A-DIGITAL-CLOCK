@@ -3,9 +3,10 @@ function updateClock() {
     const hours = now.getHours().toString().padStart(2, '0');
     const minutes = now.getMinutes().toString().padStart(2,'0');
     document.getElementById('time').innerText = `${hours}:${minutes}:${seconds}`;
+    }
 }
 
-//update every second
+//update every second 
 setInterval(updateTime, 1000);
 
 //initial call to show clock immediately
